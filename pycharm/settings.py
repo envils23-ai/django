@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY", "dev-only-key")
 DEBUG = os.environ.get("DEBUG", "False") == "True"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+# DEBUG = True
 
 ALLOWED_HOSTS = []
 RENDER_HOST = os.environ.get("RENDER_EXTERNAL_HOSTNAME")
